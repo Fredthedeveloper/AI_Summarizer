@@ -1,0 +1,18 @@
+.footer{
+	padding: 0 34px 12px 34px !important;
+	margin: 0 !important;
+	font-size: 13px;
+}
+
+.footer p{
+	margin-bottom: 0rem !important;
+}
+
+.ml-onclick-form{
+	color: #7d7d7d;
+}
+
+.ml-onclick-form:hover{
+	text-decoration: none;
+	color: #000000;
+}

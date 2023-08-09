@@ -1,0 +1,138 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  scrollbar-width: thin;
+  scrollbar-color: #888888 #f0f0f0;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #888888;
+  border-radius: 4px; /* Add border-radius for rounded corners */
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #555555; /* Change color on hover */
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #f0f0f0;
+  border-radius: 4px; /* Add border-radius for rounded corners */
+}
+
+.sidenav {
+  font-family: 'Montserrat', sans-serif;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  background-color: #202123;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+
+}
+
+.linkscontainer{
+  margin:35px 12px 5px 12px;
+}
+
+.linkscontainer a {
+  padding: 8px 8px 11px 12px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.mainsubcont i{
+  margin-right: 10px;
+}
+
+.mainlinkcont i{
+  margin-right: 10px;
+}
+
+/*top right bottom left*/
+.closecontainer a{
+  margin: 5px 12px 5px 12px;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+  width: 100%;
+  height: 100%;
+}
+
+.mainlinkcont{
+  background-color: #343541 !important;
+  border-radius: 6.5px !important;
+}
+
+.linkscontainer a:hover {
+  background-color: #343541;
+  border-radius: 6.5px;
+  text-decoration: none !important;
+  color: white !important;
+}
+
+.sidenav .closecontainer {
+  position: absolute;
+  border: 1px solid #404042;
+  border-radius: 5px;
+  top: 8px;
+  right: 25px;
+  font-size: 24px;
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.closecontainer:hover{
+  background-color: #343541;
+  cursor: pointer;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 0px;
+  margin: 0px;
+}
+
+.manthemain{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  padding-top: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.closecontainer a:hover{
+  text-decoration: none !important;
+  color: white !important;
+
+}
+
+.opencontainer a:hover{
+  text-decoration: none !important;
+  color: black !important;
+}
+
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+

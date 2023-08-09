@@ -1,0 +1,48 @@
+/* Transparent Navbar */
+#coolnavbar {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px; /* Adjust the height as needed */
+  background-color: transparent; /* Use rgba with an alpha value for transparency */
+  display: flex;
+  align-items: center;
+}
+
+#coolnavbar i {
+  margin-left: 20px; /* Add spacing between the icon and the logo */
+}
+
+.navbar-logo {
+  flex-grow: 1; /* Expand to fill the remaining space */
+  text-align: center; /* Center the logo */
+}
+
+.navbar-logo img {
+  max-height: 100%;
+  max-width: 150px; /* Adjust the width as needed */
+  margin: 7.5px 20px; /* Add spacing around the logo */
+}
+
+
+.opencontainer{
+  border-radius: 5px;
+  background-color:#f7f7f8;
+  right: 25px;
+  font-size: 24px;
+  margin-left: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.opencontainer a{
+  margin: 7.5px 12px 5px 12px;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  transition: 0.3s;
+  width: 100%;
+  height: 100%;
+}
